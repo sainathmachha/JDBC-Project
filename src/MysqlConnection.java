@@ -10,7 +10,7 @@ public class MysqlConnection {
             Class.forName("com.mysql.jdbc.Driver");
             String url = "jdbc:mysql://localhost:3306/sms";
             String username = "root";
-            String password = "Sainath1811@mysqL";
+            String password = "password";
             connection = DriverManager.getConnection(url, username, password);
         } catch (Exception e) {
             System.out.println(e.getMessage());
